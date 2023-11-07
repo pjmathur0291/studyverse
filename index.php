@@ -76,7 +76,7 @@
                             <h2 class="text-white mb-4">About StudyVerse 2023</h2>
 
                             <p class="text-white">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus sunt harum officia laudantium quibusdam, in necessitatibus, iste saepe temporibus natus mollitia eum quaerat quo! Deleniti, placeat! Culpa, provident iure!
+                               Gopi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus sunt harum officia laudantium quibusdam, in necessitatibus, iste saepe temporibus natus mollitia eum quaerat quo! Deleniti, placeat! Culpa, provident iure!
                             </p>
 
                             <h6 class="text-white mt-4">Never leave your study behind</h6>
