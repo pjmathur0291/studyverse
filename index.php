@@ -61,7 +61,7 @@
                 <video autoplay="" loop="" muted="" class="custom-video" poster="">
                     <source src="images/pexels-yan-krukov-7314488 (Original).mp4" type="video/mp4">
 
-                    Your browser does not support the video tags.
+                    Your browser does not support the video tag.
                 </video>
             </div>
         </section>
