@@ -26923,7 +26923,9 @@ table.dataTable tbody td.select-checkbox:after {
   box-shadow: none;
   height: auto;
 }
-
+.distance_dash{
+  padding-top: 20px;
+}
 .ajax-file-upload-container {
   min-height: 100px;
 }
