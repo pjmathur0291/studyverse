@@ -64,8 +64,7 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="addcourse.php">Add Content</a></li>
-                <li class="nav-item"> <a class="nav-link" href="viewcourse.php">View Content</a></li>
+                <li class="nav-item"> <a class="nav-link" href="viewcontent.php">View/Edit Content</a></li>
               
               </ul>
             </div>
