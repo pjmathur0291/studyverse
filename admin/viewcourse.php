@@ -25,7 +25,7 @@ include_once('header.php');
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">view course table</h4>
+                  <h4 class="card-title">View course table</h4>
                
                   <div class="table-responsive pt-3">
                     <form method="post">
