@@ -33,7 +33,7 @@ include_once('../config.php');
                                     $content_id = $_GET['nid'];
                                     $target_content = $_POST['target_content'];
                                     $content = $_POST['content'];
-                                    // In this section we have created a variable by name and we have to insert the ID which is coming from the URL
+                                    // In this section we have created a variable by name and we have to insert the ID which is coming from the URL 
                                     $showquery = "SELECT * FROM `content` WHERE s_no={$content_id}";
                                     // ->In this query we have to enter the primary key name from the database and enter the above ID to manage the data
                                     $showdata = mysqli_query($con, $showquery);
