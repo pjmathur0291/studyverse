@@ -30,15 +30,15 @@ include_once('../config.php');
                                     <?php
                                     // $snid = $_GET['s_no'];
                                     $s_no = $_POST['s_no'];
-                                    $content_id=$_GET['nid'];
+                                    $content_id = $_GET['nid'];
                                     $target_content = $_POST['target_content'];
                                     $content = $_POST['content'];
-    // In this section we have created a variable by name and we have to insert the ID which is coming from the URL
-                                    $showquery = "SELECT * FROM `content` WHERE s_no={$content_id}"; 
+                                    // In this section we have created a variable by name and we have to insert the ID which is coming from the URL
+                                    $showquery = "SELECT * FROM `content` WHERE s_no={$content_id}";
                                     // ->In this query we have to enter the primary key name from the database and enter the above ID to manage the data
                                     $showdata = mysqli_query($con, $showquery);
                                     $arrdata = mysqli_fetch_array($showdata);
-                                    $edit_data = "UPDATE content SET target_content='{$target_content}',content='{$content}' WHERE s_no='{content_id}' ";
+                                    $edit_data = "UPDATE content SET target_content='{$target_content}',content='{$content}' WHERE s_no='{$content_id}'";
                                     $edit_data_query = mysqli_query($con, $edit_data);
                                     ?>
                                     <div class="form-group">
