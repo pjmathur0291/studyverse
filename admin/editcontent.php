@@ -42,9 +42,6 @@ include_once('../config.php');
                                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             $edit_data = "UPDATE content SET target_content='{$target_content}',content='{$content}' WHERE s_no='{$content_id}'";
                                             $edit_data_query = mysqli_query($con, $edit_data);
-
-                                            header("Location: viewcontent.php");
-                                            exit();
                                         }
                                     }
                                     ?>
