@@ -1,5 +1,5 @@
 <?php
-// error_reporting(0);
+error_reporting(0);
 include_once('header.php');
 include_once('../config.php');
 
@@ -38,8 +38,12 @@ include_once('../config.php');
                                     // ->In this query we have to enter the primary key name from the database and enter the above ID to manage the data
                                     $showdata = mysqli_query($con, $showquery);
                                     $arrdata = mysqli_fetch_array($showdata);
-                                    $edit_data = "UPDATE content SET target_content='{$target_content}',content='{$content}' WHERE s_no='{$content_id}'";
-                                    $edit_data_query = mysqli_query($con, $edit_data);
+                                    if (isset($_POST["edit_content_save_btn"])) {
+                                        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                                            $edit_data = "UPDATE content SET target_content='{$target_content}',content='{$content}' WHERE s_no='{$content_id}'";
+                                            $edit_data_query = mysqli_query($con, $edit_data);
+                                        }
+                                    }
                                     ?>
                                     <div class="form-group">
                                         <label for="exampleInputName1">Serial Number</label>
@@ -59,7 +63,7 @@ include_once('../config.php');
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="btn btn-primary mr-2" name="save">Update</button>
+                                    <button type="submit" class="btn btn-primary mr-2" name="edit_content_save_btn">Update</button>
                                 </form>
                             </div>
                         </div>

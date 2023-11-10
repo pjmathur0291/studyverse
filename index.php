@@ -1,5 +1,6 @@
 <?php
     include("header/header.php");
+    include("config.php");
 ?>
         <section class="hero-section" id="section_1">
             <div class="section-overlay"></div>
