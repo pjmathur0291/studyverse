@@ -1,6 +1,5 @@
 <?php
     include("header/header.php");
-    include("config.php");
 ?>
         <section class="hero-section" id="section_1">
             <div class="section-overlay"></div>
@@ -11,7 +10,7 @@
                     <div class="col-12 mt-auto mb-5 text-center">
                         <small>Study Around The World | gather knowledge from others</small>
 
-                        <h1 class="text-white mb-5">StudyVerse</h1>
+                        <h1 class="text-white mb-5">StudySphere</h1>
 
                         <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
                     </div>
@@ -74,10 +73,10 @@
 
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                         <div class="services-info">
-                            <h2 class="text-white mb-4">About StudyVerse 2023</h2>
+                            <h2 class="text-white mb-4">About StudySphere 2023</h2>
 
                             <p class="text-white">
-                               Gopi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus sunt harum officia laudantium quibusdam, in necessitatibus, iste saepe temporibus natus mollitia eum quaerat quo! Deleniti, placeat! Culpa, provident iure!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus sunt harum officia laudantium quibusdam, in necessitatibus, iste saepe temporibus natus mollitia eum quaerat quo! Deleniti, placeat! Culpa, provident iure!
                             </p>
 
                             <h6 class="text-white mt-4">Never leave your study behind</h6>
@@ -295,7 +294,7 @@
                             </ul>
 
                             <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
-                                <span>Buy Ticket</span>
+                                <span>Sign Up</span>
                                 <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                                     <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                                         <circle cx="16" cy="16" r="15.5"></circle>
@@ -313,7 +312,7 @@
                                 <div>
                                     <h3><small>Standard</small> $240</h3>
 
-                                    <p>What makes a premium StudyVerse?</p>
+                                    <p>What makes a premium StudySphere?</p>
                                 </div>
                             </div>
 
@@ -330,7 +329,7 @@
                             </ul>
 
                             <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
-                                <span>Buy Ticket</span>
+                                <span>Sign Up</span>
                                 <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
                                     <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
                                         <circle cx="16" cy="16" r="15.5"></circle>
