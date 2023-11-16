@@ -1,7 +1,6 @@
 <?php
-include("header/header.php");
-include("config.php");
-
+    include("header/header.php");
+    include("config.php");
 ?>
 <section class="hero-section" id="section_1">
     <div class="section-overlay"></div>
@@ -12,7 +11,7 @@ include("config.php");
             <div class="col-12 mt-auto mb-5 text-center">
                 <small>Study Around The World | gather knowledge from others</small>
 
-                <h1 class="text-white mb-5">StudyVerse</h1>
+                        <h1 class="text-white mb-5">StudyVerse</h1>
 
                 <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
             </div>
@@ -73,13 +72,13 @@ include("config.php");
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                <div class="services-info">
-                    <h2 class="text-white mb-4">About StudyVerse 2023</h2>
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                        <div class="services-info">
+                            <h2 class="text-white mb-4">About StudyVerse 2023</h2>
 
-                    <p class="text-white">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab consequatur, sunt adipisci eos aut est minus ipsa praesentium qui quas accusamus atque, alias blanditiis placeat explicabo! Incidunt dolorem deleniti quis.
-                    </p>
+                            <p class="text-white">
+                               Gopi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus sunt harum officia laudantium quibusdam, in necessitatibus, iste saepe temporibus natus mollitia eum quaerat quo! Deleniti, placeat! Culpa, provident iure!
+                            </p>
 
                     <h6 class="text-white mt-4">Never leave your study behind</h6>
 
@@ -295,18 +294,18 @@ include("config.php");
                         <li class="pricing-list-item">standard content</li>
                     </ul>
 
-                    <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
-                        <span>Buy Ticket</span>
-                        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="16" cy="16" r="15.5"></circle>
-                                <line x1="10" y1="18" x2="16" y2="12"></line>
-                                <line x1="16" y1="12" x2="22" y2="18"></line>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                <span>Buy Ticket</span>
+                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="16" cy="16" r="15.5"></circle>
+                                        <line x1="10" y1="18" x2="16" y2="12"></line>
+                                        <line x1="16" y1="12" x2="22" y2="18"></line>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
             <div class="col-lg-6 col-12 mt-4 mt-lg-0">
                 <div class="pricing-thumb">
@@ -314,9 +313,9 @@ include("config.php");
                         <div>
                             <h3><small>Standard</small> $240</h3>
 
-                            <p>What makes a premium StudyVerse?</p>
-                        </div>
-                    </div>
+                                    <p>What makes a premium StudyVerse?</p>
+                                </div>
+                            </div>
 
                     <ul class="pricing-list mt-3">
                         <li class="pricing-list-item">platform for potential learners</li>
@@ -330,18 +329,18 @@ include("config.php");
                         <li class="pricing-list-item">live chat support</li>
                     </ul>
 
-                    <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
-                        <span>Buy Ticket</span>
-                        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="16" cy="16" r="15.5"></circle>
-                                <line x1="10" y1="18" x2="16" y2="12"></line>
-                                <line x1="16" y1="12" x2="22" y2="18"></line>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+                            <a class="link-fx-1 color-contrast-higher mt-4" href="ticket.html">
+                                <span>Buy Ticket</span>
+                                <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="16" cy="16" r="15.5"></circle>
+                                        <line x1="10" y1="18" x2="16" y2="12"></line>
+                                        <line x1="16" y1="12" x2="22" y2="18"></line>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
 
         </div>
     </div>
