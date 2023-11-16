@@ -12,7 +12,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Studyverse: Catch-Up With People To Learn Anywhere</title>
+    <title>StudySphere: Catch-Up With People To Learn Anywhere</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
                     <div class="col-lg-12 col-12 d-flex flex-wrap">
                         <p class="d-flex me-4 mb-0">
                             <i class="bi-person custom-icon me-2"></i>
-                            <strong class="text-dark">Welcome to Studyverse</strong>
+                            <strong class="text-dark">Welcome to StudySphere</strong>
                         </p>
                     </div>
 
@@ -53,7 +53,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    StudyVerse
+                    StudySphere
                 </a>
 
                 <a href="../ticket.php" class="btn custom-btn d-lg-none ms-auto me-4">Buy Premium</a>
@@ -73,7 +73,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">why Studyverse</a>
+                            <a class="nav-link click-scroll" href="#section_3">why StudySphere</a>
                         </li>
 
                         <li class="nav-item">
@@ -89,7 +89,7 @@
                         </li>
                     </ul>
 
-                    <a href="ticket.php" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                    <a href="ticket.php" class="btn custom-btn d-lg-block d-none">Sign Up</a>
                 </div>
             </div>
         </nav>
