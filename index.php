@@ -75,10 +75,16 @@
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                         <div class="services-info">
                             <h2 class="text-white mb-4">About StudyVerse 2023</h2>
+                            <?php 
+                                $get_data_db = "SELECT * FROM content";
+                                $get_data_db_connect = mysqli_query($con, $get_data_db);
 
+                                while($row = mysqli_fetch_array($get_data_db_connect)) {
+                            ?>
                             <p class="text-white">
-                               Gopi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus doloribus sunt harum officia laudantium quibusdam, in necessitatibus, iste saepe temporibus natus mollitia eum quaerat quo! Deleniti, placeat! Culpa, provident iure!
+                               <?php echo $row['content']; ?>
                             </p>
+                            <?php } ?>
 
                     <h6 class="text-white mt-4">Never leave your study behind</h6>
 
